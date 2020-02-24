@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eee;
+}
+.App {
+  background: #fff;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: yellow;
+}
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  background: yellowgreen;
+}
+.navbar h1 {
+  margin: 10px 0;
+}
+.navbar p {
+  font-size: 24px;
+}
+
+.book-list {
+  margin: 20px;
+}
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li {
+  background: rgb(219, 216, 22);
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #fff;
+}
+.empty {
+  color: rebeccapurple;
+  font-size: 24px;
+  margin: 20px;
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+input[type='text'] {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: yellowgreen;
+  color: #fff;
+  border: 0;
+}
+input[type='submit'] {
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 24px 20px;
+  display: block;
+  font-size: 20px;
+}
